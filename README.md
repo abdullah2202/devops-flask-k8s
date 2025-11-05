@@ -1,10 +1,10 @@
-# Containerized Flask App on Kubernetes with End-to-End Monitoring
+# Containerised Flask App on Kubernetes with End-to-End Monitoring
 
 ## Description
 
-This project showcases a full-stack DevOps workflow by deploying a containerized Flask application onto a local Kubernetes cluster (Kind) and implementing robust monitoring using the Prometheus/Grafana stack.
+This project showcases a full-stack DevOps workflow by deploying a containerised Flask application onto a local Kubernetes cluster (Kind) and implementing robust monitoring using the Prometheus/Grafana stack.
 
-* **Docker:** Containerizing a Python application using a multi-stage `Dockerfile`.
+* **Docker:** Containerising a Python application using a multi-stage `Dockerfile`.
 * **Kubernetes (K8s):** Defining deployments, services, and ingress using declarative YAML manifests. Utilizing Liveness and Readiness Probes.
 * **Networking:** Configuring Kubernetes Services (`ClusterIP`) and external exposure via an **Ingress Controller**.
 * **Observability (DevOps):** Implementing Prometheus (metrics scraping) and Grafana (data visualization) to monitor application and cluster health.
